@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*common parts*/
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color:#F8F4E6;
+	height:100%;
+	margin:0px;
+}
+
+#wrap{
+	background-color:#F8F4E6;
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#header{
+	background-color:#440381;
+	margin:0px;
+	height:50px;
+	width:100%;
+}
+
+#footer{
+	background-color:#440381;
+	color:#F8F4E6;
+	text-align:center;
+	display:inline-block;
+	margin:0px;
+	height:60px;
+	width:100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo{
+	float:left;
+	text-align:left;
+}
+
+#search-box{
+	float:right;
+	text-align:right;
+	color:#F8F4E6;
+}
+/*common parts*/
+
+/*top page*/
+#topwrap{
+	text-align:center;
+	margin:0 auto;
+	padding:100px 0px;/*first:top,bottom second:left,right*/
+	width:100%;
+}
+
+.button-top{
+	display:inline-block;
+	border:solid #EC368D;
+	padding:10px 10px;
+}
+
+a.button-link:hover{
+	color:#000000;
+	background-color:#FFFFFF;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	padding:10px 0px;
+}
+
+a.button-link:visited{
+	color:#000000;
+	padding:10px 0px;
+}
+
+a.button-link:link{
+	color:#000000;
+	padding:10px 0px;
+}
+
+a.button-link:active{
+	color:#000000;
+	background-color:#EC368D;
+	padding:10px 0px;
+
+}
+/*top page*/
+
+/*other page*/
+#alound{
+	width:950px;
+	margin:0 auto;
+}
+
+#sidewrap{
+	float:left;
+	text-align:left;
+	width:260px;
+	margin:10px;
+}
+
+#mainwrap{
+	float:right;
+	text-align:left;
+	width:650px;
+	margin:10px;
+}
+
+
+/*accordion*/
+label {
+	background-color:#51E5FF;
+    color: #000000;
+    padding: 10px;
+    display: block;
+    margin: 0;
+	border:solid #51E5FF;
+}
+
+input[type="checkbox"].on-off{
+    display: none;
+}
+
+.menu ul {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+input[type="checkbox"].on-off + ul{
+  display: none;
+}
+
+input[type="checkbox"].on-off:checked + ul{
+  display: block;
+}
+
+ 
+/*accordion*/
+
+/*button*/
+.button{
+	background-color:#51E5FF;
+    color: #000000;
+    padding: 10px;
+    display: block;
+    margin: 0;
+	border:solid #51E5FF;
+}
+.button:hover{
+	color:#000000;
+	background-color:#FFFFFF;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	padding:10px;
+}
+
+.button:visited{
+	color:#000000;
+	padding:10px;
+}
+
+.button:link{
+	color:#000000;
+	padding:10px;
+}
+
+.button:active{
+	color:#000000;
+	background-color:#51E5FF;
+	padding:10px;
+
+}
+/*button*/
+
+/*classlist,textlist*/
+#largeAwrap{
+	float:left;
+}
+
+#largeBwrap{
+	float:right;
+}
+
+#smallAwrap{
+	float:left;
+	width:162px;
+}
+
+#smallBwrap{
+	float:right;
+	width:162px;
+}
+
+#smallCwrap{
+	float:left;
+	width:162px;
+}
+
+#smallDwrap{
+	float:right;
+	width:162px;
+}
+
+li{
+	color:#EC368D;
+}
+
+li span{
+	color:#000000;
+}
+/*classlist,textlist*/
+
+/*class pages*/
+table{
+	width:600px;
+}
+/*class pages*/
+/*other page*/
